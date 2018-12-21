@@ -1,0 +1,18 @@
+.head-wrapper {
+	background-color: #231f20;
+	color: #f5e2dc;
+}
+
+.head-wrapper .address-link,
+.head-wrapper .phone-link {
+	display: none;
+}
+
+.head-wrapper .header-item.logo {
+	padding: 18px 0 28px;
+	text-align: center;
+}
+
+.head-wrapper header {
+	border-bottom: 3px solid #cc8466;
+}
