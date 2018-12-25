@@ -1,3 +1,24 @@
+@font-face {
+	font-family: 'Museo';
+	src: url(../fonts/MuseoSansMedium.ttf);
+}
+@font-face {
+	font-family: 'MuseoBold';
+	src: url(../fonts/MuseoSansBold.ttf);
+}
+@font-face {
+	font-family: 'MuseoThin';
+	src: url(../fonts/MuseoSansLight.ttf);
+}
+@font-face {
+	font-family: 'MuseoItalic';
+	src: url(../fonts/MuseoSansMediumItalic.ttf);
+}
+
+* {
+	font-family: 'Museo';
+}
+
 .head-wrapper {
 	background-color: #231f20;
 	color: #f5e2dc;
@@ -15,4 +36,43 @@
 
 .head-wrapper header {
 	border-bottom: 3px solid #cc8466;
+}
+
+.head-wrapper .desktop-menu {
+	display: none;
+}
+
+.head-wrapper .mobile-menu {
+	background-color: #cc8466;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.head-wrapper .mobile-menu ul {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.head-wrapper .mobile-menu ul li.active {
+	color: #231f20;
+}
+.head-wrapper .mobile-menu ul li {
+	margin-bottom: 28px;
+}
+
+.head-wrapper .mobile-menu .close-menu {
+	border: 2px solid #231f20;
+	border-radius: 50%;
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	color: #231f20;
+	text-decoration: none;
+	line-height: 52px;
+	font-family: 'MuseoBold';
+	font-size: 32px;
+	margin: 20px 0;
 }
