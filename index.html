@@ -6,6 +6,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/main-slider.css">
 </head>
 <body>
 
@@ -37,11 +38,13 @@
 
 			<nav class="menu">
 
-				<div class="mobile-menu">
+				<span onclick="openMenu()" class="mobile-burger"></span>
 
-					<a href="#" class="close-menu">
+				<div id="moblieMenuBlock" class="mobile-menu">
+
+					<span onclick="closeMenu()" class="close-menu">
 						&times;
-					</a>
+					</span>
 
 					<ul>
 						<li>Каталог квартир</li>
@@ -77,7 +80,7 @@
 			
 			<div class="slider-item">
 				
-				<div class="slider-item-img">
+				<div class="slider-item-img" style="background-image: url(img/slider.jpg)">
 					
 					<div class="item-caption">
 
@@ -138,5 +141,6 @@
 		</div>
 	</div>	<!-- slider-wrapper -->
 
+	<script src="js/script.js"></script>
 </body>
 </html>

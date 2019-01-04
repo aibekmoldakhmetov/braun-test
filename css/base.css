@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Museo';
+	src: url(../fonts/MuseoSansMedium.ttf);
+}
+@font-face {
+	font-family: 'MuseoBold';
+	src: url(../fonts/MuseoSansBold.ttf);
+}
+@font-face {
+	font-family: 'MuseoThin';
+	src: url(../fonts/MuseoSansLight.ttf);
+}
+@font-face {
+	font-family: 'MuseoItalic';
+	src: url(../fonts/MuseoSansMediumItalic.ttf);
+}
+
+* {
+	font-family: 'Museo';
+}
+body {
+	margin: 0;
+}

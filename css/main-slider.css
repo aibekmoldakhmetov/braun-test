@@ -1,0 +1,16 @@
+.slider-wrapper .slider-item {
+	position: relative;
+	height: 790px;
+}
+
+.slider-wrapper .slider-item-img {
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.slider-wrapper .item-caption {
+	position: absolute;
+	bottom: 0;
+	height: 490px;
+}
