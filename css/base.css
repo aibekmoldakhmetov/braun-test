@@ -21,3 +21,40 @@
 body {
 	margin: 0;
 }
+
+h3 {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	position: relative;
+}
+
+h3:before {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 100px;
+	bottom: -24px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.container {
+	width: 300px;
+	margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+		width: 520px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
