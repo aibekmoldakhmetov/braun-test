@@ -93,6 +93,7 @@
 		position: absolute;
 		display: block;
 		top: 50px;
+		margin-top: 11px;
 	}
 
 	.head-wrapper .address-link a,
@@ -105,5 +106,44 @@
 	}
 	.head-wrapper .phone-link {
 		right: 0;
+	}
+
+	.head-wrapper .haeder-ico {
+		display: inline-block;
+		width: 48px;
+		height: 48px;
+		border: 2px solid #d18b6e;
+		border-radius: 50%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
+	.head-wrapper .map-ico {
+		margin-right: 12px;
+		background-image: url(../img/location.png);
+	}
+	.head-wrapper .phone-ico {
+		margin-left: 12px;
+		background-image: url(../img/phone.png);
+	}
+
+	.head-wrapper .desktop-menu {
+		display: block;
+	}
+
+	.head-wrapper .menu .mobile-burger {
+		display: none;
+	}
+
+	.head-wrapper .desktop-menu ul {
+		display: flex;
+		justify-content: space-between;
+		padding: 25px 0;
+	}
+	.head-wrapper .desktop-menu ul li{
+		list-style-type: none;
+		display: inline;
+		font-size: 18px;
+		text-transform: uppercase;
 	}
 }
